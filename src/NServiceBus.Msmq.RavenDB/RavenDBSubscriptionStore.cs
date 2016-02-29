@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
 using NServiceBus.Msmq.RavenDB;
 using NServiceBus.Settings;
 using NServiceBus.Transports.Msmq;

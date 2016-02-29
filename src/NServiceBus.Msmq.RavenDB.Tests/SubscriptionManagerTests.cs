@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using NServiceBus.Extensibility;
 using NUnit.Framework;
-using Raven.Client.Document;
 
 namespace NServiceBus.Msmq.RavenDB.Tests
 {
