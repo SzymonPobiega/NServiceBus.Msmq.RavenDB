@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.Msmq.RavenDB", "NServiceBus.Msmq.RavenDB\NServiceBus.Msmq.RavenDB.csproj", "{230CAC64-A273-4969-8C18-FF2EA688F569}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcceptanceTests", "AcceptanceTests\AcceptanceTests.csproj", "{EAA6C611-CB6D-43B2-A6C4-38666691C42C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBus.Msmq.RavenDB.Tests", "NServiceBus.Msmq.RavenDB.Tests\NServiceBus.Msmq.RavenDB.Tests.csproj", "{129B89C9-924A-436F-9ABC-D6259D107540}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{230CAC64-A273-4969-8C18-FF2EA688F569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{230CAC64-A273-4969-8C18-FF2EA688F569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{230CAC64-A273-4969-8C18-FF2EA688F569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA6C611-CB6D-43B2-A6C4-38666691C42C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA6C611-CB6D-43B2-A6C4-38666691C42C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA6C611-CB6D-43B2-A6C4-38666691C42C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA6C611-CB6D-43B2-A6C4-38666691C42C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129B89C9-924A-436F-9ABC-D6259D107540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129B89C9-924A-436F-9ABC-D6259D107540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129B89C9-924A-436F-9ABC-D6259D107540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129B89C9-924A-436F-9ABC-D6259D107540}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
